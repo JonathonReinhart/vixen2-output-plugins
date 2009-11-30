@@ -1,7 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Xml;
 using System.Net;
@@ -156,7 +153,9 @@ namespace ElexolEther_IO24
         }
 
 
-        public List<System.Windows.Forms.Form> Startup()
+        // Changed in 2.5
+        //public List<System.Windows.Forms.Form> Startup()
+        public void Startup()
         {
             /* Called when a sequence is executed.
              * Returns a list of forms that the plug-in needs to have injected into Vixen's MDI interface.
@@ -176,7 +175,7 @@ namespace ElexolEther_IO24
                             15);
 
             // Return an empty list. (No windows are to be shown during execution.)
-            return new List<Form>();
+            //return new List<Form>();
         }
 
         #endregion
@@ -203,6 +202,8 @@ namespace ElexolEther_IO24
         }
 
         #endregion
+
+
     }
 
 }
