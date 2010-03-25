@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LPT2DMX_25", "LPT2DMX_25.csproj", "{AE091CC3-EF68-46F4-84B9-6C2AF2B2A029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LPT2DMX_21", "LPT2DMX_21.csproj", "{4DF8A509-EDE8-4D17-97F5-F88E8757DEE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE091CC3-EF68-46F4-84B9-6C2AF2B2A029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE091CC3-EF68-46F4-84B9-6C2AF2B2A029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE091CC3-EF68-46F4-84B9-6C2AF2B2A029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE091CC3-EF68-46F4-84B9-6C2AF2B2A029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF8A509-EDE8-4D17-97F5-F88E8757DEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF8A509-EDE8-4D17-97F5-F88E8757DEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF8A509-EDE8-4D17-97F5-F88E8757DEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF8A509-EDE8-4D17-97F5-F88E8757DEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
